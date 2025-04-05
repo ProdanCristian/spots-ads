@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  allowedDevOrigins: [
+    "https://spotsads.com",
+    "http://spotsads.com",
+    "spotsads.com",
+  ],
 };
 
 export default nextConfig;
