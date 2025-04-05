@@ -23,10 +23,7 @@ export default async function Home() {
                 </p>
                 <div className="flex flex-col gap-4 sm:flex-row">
                   <Button size="lg" className="bg-primary" asChild>
-                    <Link href="/login?userType=Creator">Start as Creator</Link>
-                  </Button>
-                  <Button size="lg" variant="outline" asChild>
-                    <Link href="/login?userType=Advertiser">Advertise with Us</Link>
+                    <Link href="/login">Start as Creator</Link>
                   </Button>
                 </div>
               </div>
@@ -51,6 +48,7 @@ export default async function Home() {
                 Our platform makes advertising partnerships simple, effective, and profitable for everyone involved.
               </p>
             </div>
+
             <div className="grid gap-8 md:grid-cols-3">
               <Card className="p-6 transition-all hover:shadow-md">
                 <div className="text-3xl mb-4">💰</div>
